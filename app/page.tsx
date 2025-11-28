@@ -24,14 +24,14 @@ export default function Home() {
 
 	return (
 		<div className="min-h-screen bg-background">
-			<Header userName="Misganaw Kebede" phoneNumber="913228892" />
+			{/* <Header userName="Misganaw Kebede" phoneNumber="913228892" /> */}
 
 			<main className="pb-24">
 				{activeTab === "dashboard" ? (
 					<>
 						{/* Hero Section with Balance - extends full gradient */}
 						<section className="gradient-primary text-white">
-							<div className="px-4 py-8">
+							<div className="px-0 pb-8 pt-2">
 								<div className="max-w-md mx-auto">
 									<BalanceCard onSeeMoreClick={handleSeeMore} />
 								</div>

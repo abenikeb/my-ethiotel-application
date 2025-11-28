@@ -1745,3 +1745,65 @@ It can also happen if the client has a browser extension installed which messes 
 [04:00:28.652] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/recharge/airtime color: rgb(120, 120, 120) color: inherit {"dp":"/recharge/airtime","o":"http://localhost:3000/recharge/airtime","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764327628353}
 [04:00:29.050] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/recharge color: rgb(120, 120, 120) color: inherit {"dp":"/recharge","o":"http://localhost:3000/recharge","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764327628751}
 [04:00:30.087] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764327629788}
+[04:08:04.535] Server  LOG      ✓ Compiled in 1331ms
+[04:08:52.492] Server  LOG      ✓ Compiled in 501ms
+[04:09:16.982] Server  LOG      ✓ Compiled in 276ms
+[04:09:17.867] Browser ERROR   uncaughtError: ReferenceError: Bell is not defined
+[04:09:37.780] Server  LOG      ✓ Compiled in 226ms
+[04:09:39.014] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\Projects_tele-application-functions_6bcfa538._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[04:09:39.018] Server  ERROR    ⨯ ReferenceError: Bell is not defined
+[04:09:39.184] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:09:46.770] Browser ERROR   uncaughtError: ReferenceError: Bell is not defined
+[04:09:48.191] Server  LOG      ✓ Compiled in 531ms
+[04:09:48.891] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:09:51.434] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[04:09:53.040] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:09:53.040] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:09:53.040] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1764328192737}
+[04:10:23.041] Server  LOG      ✓ Compiled in 210ms
+[04:11:01.651] Server  LOG      ✓ Compiled in 258ms
+[04:11:51.036] Server  LOG      ✓ Compiled in 250ms
+[04:12:17.850] Server  LOG      ✓ Compiled in 187ms
+[04:12:28.291] Server  LOG      ✓ Compiled in 416ms
+[04:14:06.309] Server  LOG      ✓ Compiled in 334ms
+[04:14:18.766] Server  LOG      ✓ Compiled in 178ms
+[04:14:53.097] Server  LOG      ✓ Compiled in 214ms
+[04:14:58.399] Server  LOG      ✓ Compiled in 689ms
+[04:15:02.790] Server  LOG      ✓ Compiled in 837ms

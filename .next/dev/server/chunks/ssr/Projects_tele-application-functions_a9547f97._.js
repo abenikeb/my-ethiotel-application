@@ -16,7 +16,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$applicat
 ;
 function Header({ userName, phoneNumber }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "gradient-primary text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50 border-0 relative",
+        className: "bg-[#a3d977] text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50 border-0 relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex items-center gap-3 relative z-10",

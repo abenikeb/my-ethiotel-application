@@ -10,7 +10,7 @@ interface HeaderProps {
 
 export function Header({ userName, phoneNumber }: HeaderProps) {
 	return (
-		<header className="gradient-primary text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50 border-0 relative">
+		<header className="bg-[#a3d977] text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50 border-0 relative">
 			<div className="flex items-center gap-3 relative z-10">
 				<div className="relative w-10 h-10 flex-shrink-0 p-1.5 bg-[#0a1a3a] rounded-xl border border-white/40 shadow-lg">
 					<Image
