@@ -72,9 +72,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$applicat
 ;
 ;
 const metadata = {
-    title: "myethio-tel App",
-    description: "Created with myethio-tel",
-    generator: "myethio-tel.app",
+    title: "My Ethiotel",
+    description: "My Ethiotel - Telecom Services App",
     icons: {
         icon: [
             {
@@ -116,7 +115,48 @@ function RootLayout({ children }) {
         lineNumber: 38,
         columnNumber: 3
     }, this);
-}
+} // import type { Metadata } from "next";
+ // import { Geist, Geist_Mono } from "next/font/google";
+ // import { Analytics } from "@vercel/analytics/next";
+ // import "./globals.css";
+ // const _geist = Geist({ subsets: ["latin"] });
+ // const _geistMono = Geist_Mono({ subsets: ["latin"] });
+ // export const metadata: Metadata = {
+ // 	title: "myethio-tel App",
+ // 	description: "Created with myethio-tel",
+ // 	generator: "myethio-tel.app",
+ // 	icons: {
+ // 		icon: [
+ // 			{
+ // 				url: "/icon-light-32x32.png",
+ // 				media: "(prefers-color-scheme: light)",
+ // 			},
+ // 			{
+ // 				url: "/icon-dark-32x32.png",
+ // 				media: "(prefers-color-scheme: dark)",
+ // 			},
+ // 			{
+ // 				url: "/icon.svg",
+ // 				type: "image/svg+xml",
+ // 			},
+ // 		],
+ // 		apple: "/apple-icon.png",
+ // 	},
+ // };
+ // export default function RootLayout({
+ // 	children,
+ // }: Readonly<{
+ // 	children: React.ReactNode;
+ // }>) {
+ // 	return (
+ // 		<html lang="en">
+ // 			<body className={`font-sans antialiased`}>
+ // 				{children}
+ // 				<Analytics />
+ // 			</body>
+ // 		</html>
+ // 	);
+ // }
 }),
 "[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";

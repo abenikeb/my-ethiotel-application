@@ -4,196 +4,251 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Color System */
-  --background: oklch(0.98 0.005 142.5);
-  --foreground: oklch(0.12 0.02 285);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.12 0.02 285);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.12 0.02 285);
+	/* Color System */
+	--background: oklch(0.98 0.005 142.5);
+	--foreground: oklch(0.12 0.02 285);
+	--card: oklch(1 0 0);
+	--card-foreground: oklch(0.12 0.02 285);
+	--popover: oklch(1 0 0);
+	--popover-foreground: oklch(0.12 0.02 285);
 
-  /* Gradient Colors: Bright Lime to Deep Emerald (Reversed) */
-  /* Vibrant Lime (start - PRIMARY) */
-  --gradient-start: #a3d977;
-  /* Deep Emerald Green (end - SECONDARY) */
-  --gradient-end: #1b8659;
+	/* Gradient Colors: Bright Lime to Deep Emerald (Reversed) */
+	/* Vibrant Lime (start - PRIMARY) */
+	--gradient-start: #a3d977;
+	/* Deep Emerald Green (end - SECONDARY) */
+	--gradient-end: #1b8659;
 
-  /* Primary: Vibrant Lime */
-  --primary: #a3d977;
-  --primary-foreground: oklch(0.15 0.02 285);
+	/* Primary: Vibrant Lime */
+	--primary: #a3d977;
+	--primary-foreground: oklch(0.15 0.02 285);
 
-  /* Secondary: Deep Emerald */
-  --secondary: #1b8659;
-  --secondary-foreground: oklch(0.98 0.01 142.5);
+	/* Secondary: Deep Emerald */
+	--secondary: #1b8659;
+	--secondary-foreground: oklch(0.98 0.01 142.5);
 
-  /* Muted: Light Gray */
-  --muted: oklch(0.9 0.01 180);
-  --muted-foreground: oklch(0.45 0.01 285);
+	/* Muted: Light Gray */
+	--muted: oklch(0.9 0.01 180);
+	--muted-foreground: oklch(0.45 0.01 285);
 
-  /* Accent: Mid-tone Emerald for transition */
-  --accent: #2da870;
-  --accent-foreground: oklch(0.98 0 0);
+	/* Accent: Mid-tone Emerald for transition */
+	--accent: #2da870;
+	--accent-foreground: oklch(0.98 0 0);
 
-  --destructive: oklch(0.63 0.22 25);
-  --destructive-foreground: oklch(0.98 0 0);
+	--destructive: oklch(0.63 0.22 25);
+	--destructive-foreground: oklch(0.98 0 0);
 
-  --border: oklch(0.92 0.01 180);
-  --input: oklch(0.96 0.01 180);
-  /* Ring: Lime for focus states */
-  --ring: #a3d977;
+	--border: oklch(0.92 0.01 180);
+	--input: oklch(0.96 0.01 180);
+	/* Ring: Lime for focus states */
+	--ring: #a3d977;
 
-  --chart-1: #a3d977;
-  --chart-2: #2da870;
-  --chart-3: #1b8659;
-  --chart-4: #0f5c3d;
-  --chart-5: #7bc652;
+	--chart-1: #a3d977;
+	--chart-2: #2da870;
+	--chart-3: #1b8659;
+	--chart-4: #0f5c3d;
+	--chart-5: #7bc652;
 
-  --radius: 0.75rem;
-  --sidebar: oklch(0.15 0.02 285);
-  --sidebar-foreground: oklch(0.95 0.01 130);
-  /* Sidebar primary: Bright lime */
-  --sidebar-primary: #a3d977;
-  --sidebar-primary-foreground: oklch(0.15 0.02 285);
-  --sidebar-accent: oklch(0.25 0.01 285);
-  --sidebar-accent-foreground: #a3d977;
-  --sidebar-border: oklch(0.25 0.01 285);
-  /* Sidebar ring: Bright lime */
-  --sidebar-ring: #a3d977;
+	--radius: 0.75rem;
+	--sidebar: oklch(0.15 0.02 285);
+	--sidebar-foreground: oklch(0.95 0.01 130);
+	/* Sidebar primary: Bright lime */
+	--sidebar-primary: #a3d977;
+	--sidebar-primary-foreground: oklch(0.15 0.02 285);
+	--sidebar-accent: oklch(0.25 0.01 285);
+	--sidebar-accent-foreground: #a3d977;
+	--sidebar-border: oklch(0.25 0.01 285);
+	/* Sidebar ring: Bright lime */
+	--sidebar-ring: #a3d977;
 }
 
 .dark {
-  --background: oklch(0.12 0.01 285);
-  --foreground: oklch(0.95 0.01 142.5);
-  --card: oklch(0.18 0.01 285);
-  --card-foreground: oklch(0.95 0.01 142.5);
-  --popover: oklch(0.18 0.01 285);
-  --popover-foreground: oklch(0.95 0.01 142.5);
+	--background: oklch(0.12 0.01 285);
+	--foreground: oklch(0.95 0.01 142.5);
+	--card: oklch(0.18 0.01 285);
+	--card-foreground: oklch(0.95 0.01 142.5);
+	--popover: oklch(0.18 0.01 285);
+	--popover-foreground: oklch(0.95 0.01 142.5);
 
-  /* Primary: Bright lime for dark mode */
-  --primary: #a3d977;
-  --primary-foreground: oklch(0.15 0.02 285);
+	/* Primary: Bright lime for dark mode */
+	--primary: #a3d977;
+	--primary-foreground: oklch(0.15 0.02 285);
 
-  --secondary: oklch(0.25 0.01 285);
-  --secondary-foreground: oklch(0.95 0.01 142.5);
+	--secondary: oklch(0.25 0.01 285);
+	--secondary-foreground: oklch(0.95 0.01 142.5);
 
-  --muted: oklch(0.3 0.01 285);
-  --muted-foreground: oklch(0.65 0.01 285);
+	--muted: oklch(0.3 0.01 285);
+	--muted-foreground: oklch(0.65 0.01 285);
 
-  /* Accent: Bright lime */
-  --accent: #a3d977;
-  --accent-foreground: oklch(0.15 0.02 285);
+	/* Accent: Bright lime */
+	--accent: #a3d977;
+	--accent-foreground: oklch(0.15 0.02 285);
 
-  --destructive: oklch(0.5 0.2 25);
-  --destructive-foreground: oklch(0.9 0.1 25);
+	--destructive: oklch(0.5 0.2 25);
+	--destructive-foreground: oklch(0.9 0.1 25);
 
-  --border: oklch(0.25 0.01 285);
-  --input: oklch(0.22 0.01 285);
-  /* Ring: Bright lime */
-  --ring: #a3d977;
+	--border: oklch(0.25 0.01 285);
+	--input: oklch(0.22 0.01 285);
+	/* Ring: Bright lime */
+	--ring: #a3d977;
 
-  --chart-1: #a3d977;
-  --chart-2: #2da870;
-  --chart-3: #1b8659;
-  --chart-4: #0f5c3d;
-  --chart-5: #7bc652;
+	--chart-1: #a3d977;
+	--chart-2: #2da870;
+	--chart-3: #1b8659;
+	--chart-4: #0f5c3d;
+	--chart-5: #7bc652;
 
-  --sidebar: oklch(0.15 0.01 285);
-  --sidebar-foreground: oklch(0.95 0.01 142.5);
-  /* Sidebar primary: Bright lime */
-  --sidebar-primary: #a3d977;
-  --sidebar-primary-foreground: oklch(0.15 0.02 285);
-  --sidebar-accent: oklch(0.25 0.01 285);
-  --sidebar-accent-foreground: #a3d977;
-  --sidebar-border: oklch(0.25 0.01 285);
-  /* Sidebar ring: Bright lime */
-  --sidebar-ring: #a3d977;
+	--sidebar: oklch(0.15 0.01 285);
+	--sidebar-foreground: oklch(0.95 0.01 142.5);
+	/* Sidebar primary: Bright lime */
+	--sidebar-primary: #a3d977;
+	--sidebar-primary-foreground: oklch(0.15 0.02 285);
+	--sidebar-accent: oklch(0.25 0.01 285);
+	--sidebar-accent-foreground: #a3d977;
+	--sidebar-border: oklch(0.25 0.01 285);
+	/* Sidebar ring: Bright lime */
+	--sidebar-ring: #a3d977;
 }
 
 @theme inline {
-  --font-sans: "Geist", "Geist Fallback";
-  --font-mono: "Geist Mono", "Geist Mono Fallback";
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-popover: var(--popover);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-destructive-foreground: var(--destructive-foreground);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
-  --color-chart-1: var(--chart-1);
-  --color-chart-2: var(--chart-2);
-  --color-chart-3: var(--chart-3);
-  --color-chart-4: var(--chart-4);
-  --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+	--font-sans: "Geist", "Geist Fallback";
+	--font-mono: "Geist Mono", "Geist Mono Fallback";
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-card: var(--card);
+	--color-card-foreground: var(--card-foreground);
+	--color-popover: var(--popover);
+	--color-popover-foreground: var(--popover-foreground);
+	--color-primary: var(--primary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-secondary: var(--secondary);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-muted: var(--muted);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-accent: var(--accent);
+	--color-accent-foreground: var(--accent-foreground);
+	--color-destructive: var(--destructive);
+	--color-destructive-foreground: var(--destructive-foreground);
+	--color-border: var(--border);
+	--color-input: var(--input);
+	--color-ring: var(--ring);
+	--color-chart-1: var(--chart-1);
+	--color-chart-2: var(--chart-2);
+	--color-chart-3: var(--chart-3);
+	--color-chart-4: var(--chart-4);
+	--color-chart-5: var(--chart-5);
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+	--color-sidebar: var(--sidebar);
+	--color-sidebar-foreground: var(--sidebar-foreground);
+	--color-sidebar-primary: var(--sidebar-primary);
+	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+	--color-sidebar-accent: var(--sidebar-accent);
+	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+	--color-sidebar-border: var(--sidebar-border);
+	--color-sidebar-ring: var(--sidebar-ring);
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
+	* {
+		@apply border-border outline-ring/50;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
 }
 
 @layer utilities {
-  /* Reversed gradient to have bright lime as primary (majority) and deep emerald as secondary (minority) */
-  .gradient-primary {
-    background: linear-gradient(135deg, #a3d977 0%, #2da870 50%, #1b8659 100%);
-  }
+	/* Reversed gradient to have bright lime as primary (majority) and deep emerald as secondary (minority) */
+	/* .gradient-primary {
+		background: linear-gradient(135deg, #a3d977 0%, #2da870 50%, #1b8659 100%);
+	} */
 
-  /* Alternative gradient with lime majority and emerald as accent */
-  .gradient-primary-alt {
-    background: linear-gradient(to right, #a3d977 0%, #1b8659 100%);
-  }
+	.gradient-primary {
+		@apply bg-gradient-to-b from-[#a3d977] via-[#2da870] to-[#1e3c72];
+		background-size: 100% 150%;
+		background-position: 0 -10px;
+		position: relative;
+		overflow: hidden;
+	}
 
-  .glass-effect {
-    @apply bg-white/80 backdrop-blur-md border border-white/30;
-  }
+	/* Decorative background pattern overlay */
+	.gradient-primary::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: radial-gradient(
+				circle at 20% 50%,
+				rgba(255, 255, 255, 0.03) 1px,
+				transparent 1px
+			),
+			radial-gradient(
+				circle at 80% 80%,
+				rgba(255, 255, 255, 0.02) 2px,
+				transparent 2px
+			),
+			radial-gradient(
+				circle at 40% 20%,
+				rgba(163, 217, 119, 0.05) 1.5px,
+				transparent 1.5px
+			);
+		background-size: 80px 80px, 120px 120px, 150px 150px;
+		background-position: 0 0, 40px 60px, 0 0;
+		pointer-events: none;
+		animation: drift 20s linear infinite;
+	}
 
-  .card-hover {
-    @apply transition-all duration-300 hover:shadow-lg hover:scale-105;
-  }
+	/* Illustration elements - geometric shapes */
+	.gradient-primary::after {
+		content: "";
+		position: absolute;
+		top: -50%;
+		right: -20%;
+		width: 300px;
+		height: 300px;
+		background: radial-gradient(
+			circle,
+			rgba(163, 217, 119, 0.1) 0%,
+			transparent 70%
+		);
+		border-radius: 50%;
+		pointer-events: none;
+		animation: float 6s ease-in-out infinite;
+	}
 
-  /* White text utility for visibility on gradient backgrounds */
-  .text-on-gradient {
-    @apply text-white;
-  }
+	/* Alternative gradient with lime majority and emerald as accent */
+	.gradient-primary-alt {
+		background: linear-gradient(to right, #a3d977 0%, #1b8659 100%);
+	}
 
-  .bg-lime-dark {
-    @apply bg-accent;
-  }
+	.glass-effect {
+		@apply bg-white/80 backdrop-blur-md border border-white/30;
+	}
 
-  /* Updated gradient overlay to match reversed gradient (lime to emerald) */
-  .gradient-overlay {
-    background: linear-gradient(
-      135deg,
-      rgba(163, 217, 119, 0.95) 0%,
-      rgba(45, 168, 112, 0.95) 50%,
-      rgba(27, 134, 89, 0.95) 100%
-    );
-  }
+	.card-hover {
+		@apply transition-all duration-300 hover:shadow-lg hover:scale-105;
+	}
+
+	/* White text utility for visibility on gradient backgrounds */
+	.text-on-gradient {
+		@apply text-white;
+	}
+
+	.bg-lime-dark {
+		@apply bg-accent;
+	}
+
+	/* Updated gradient overlay to match reversed gradient (lime to emerald) */
+	.gradient-overlay {
+		background: linear-gradient(
+			135deg,
+			rgba(163, 217, 119, 0.95) 0%,
+			rgba(45, 168, 112, 0.95) 50%,
+			rgba(27, 134, 89, 0.95) 100%
+		);
+	}
 }

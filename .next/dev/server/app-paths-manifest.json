@@ -1,3 +1,9 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/packages/create/page": "app/packages/create/page.js",
+  "/packages/page": "app/packages/page.js",
+  "/packages/send-gift/[id]/page": "app/packages/send-gift/[id]/page.js",
+  "/page": "app/page.js",
+  "/recharge/airtime/page": "app/recharge/airtime/page.js",
+  "/recharge/page": "app/recharge/page.js"
 }

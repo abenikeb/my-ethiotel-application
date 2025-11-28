@@ -7,85 +7,111 @@ __turbopack_context__.s([
     ()=>Header
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/menu.js [app-ssr] (ecmascript) <export default as Menu>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bell$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Bell$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/bell.js [app-ssr] (ecmascript) <export default as Bell>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$settings$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Settings$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/settings.js [app-ssr] (ecmascript) <export default as Settings>");
+"use client";
+;
 ;
 ;
 function Header({ userName, phoneNumber }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "gradient-primary text-white px-4 py-4 flex items-center justify-between sticky top-0 z-50 shadow-lg",
+        className: "gradient-primary text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50 border-0 relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-sm font-medium opacity-95",
-                    children: "My Ethiotel"
-                }, void 0, false, {
-                    fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-center gap-3",
+                className: "flex items-center gap-3 relative z-10",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "p-2 hover:bg-black/10 rounded-lg transition",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bell$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Bell$3e$__["Bell"], {
-                            size: 20
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative w-10 h-10 flex-shrink-0 p-1.5 bg-[#0a1a3a] rounded-xl border border-white/40 shadow-lg",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            src: "/images/tele-logo2.png",
+                            alt: "Ethiotel Logo",
+                            fill: true,
+                            className: "object-contain p-1"
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
                             lineNumber: 16,
-                            columnNumber: 11
+                            columnNumber: 6
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
                         lineNumber: 15,
-                        columnNumber: 9
+                        columnNumber: 5
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "p-2 hover:bg-black/10 rounded-lg transition",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$settings$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Settings$3e$__["Settings"], {
-                            size: 20
-                        }, void 0, false, {
-                            fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
-                            lineNumber: 19,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                className: "text-lg font-bold tracking-tight",
+                                children: "My Ethiotel"
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
+                                lineNumber: 24,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-xs opacity-80 font-medium",
+                                children: "Mobile Services"
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
+                                lineNumber: 25,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
-                        lineNumber: 18,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "p-2 hover:bg-black/10 rounded-lg transition",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
-                            size: 20
-                        }, void 0, false, {
-                            fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
-                            lineNumber: 22,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
-                        lineNumber: 21,
-                        columnNumber: 9
+                        lineNumber: 23,
+                        columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
                 lineNumber: 14,
-                columnNumber: 7
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center gap-2 relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "p-2.5 hover:bg-white/25 rounded-full transition-all duration-300 border border-white/20 hover:border-white/40 backdrop-blur-sm",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bell$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Bell$3e$__["Bell"], {
+                            size: 20,
+                            className: "stroke-2"
+                        }, void 0, false, {
+                            fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
+                            lineNumber: 31,
+                            columnNumber: 6
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
+                        lineNumber: 30,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "p-2.5 hover:bg-white/25 rounded-full transition-all duration-300 border border-white/20 hover:border-white/40 backdrop-blur-sm",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$settings$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Settings$3e$__["Settings"], {
+                            size: 20,
+                            className: "stroke-2"
+                        }, void 0, false, {
+                            fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
+                            lineNumber: 34,
+                            columnNumber: 6
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
+                        lineNumber: 33,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
+                lineNumber: 29,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Projects/tele-application-functions/components/header.tsx",
-        lineNumber: 10,
-        columnNumber: 5
+        lineNumber: 13,
+        columnNumber: 3
     }, this);
 }
 }),
@@ -97,151 +123,306 @@ __turbopack_context__.s([
     ()=>BalanceCard
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$credit$2d$card$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CreditCard$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/credit-card.js [app-ssr] (ecmascript) <export default as CreditCard>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/eye.js [app-ssr] (ecmascript) <export default as Eye>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2d$off$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__EyeOff$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/eye-off.js [app-ssr] (ecmascript) <export default as EyeOff>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/send.js [app-ssr] (ecmascript) <export default as Send>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/shopping-bag.js [app-ssr] (ecmascript) <export default as ShoppingBag>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shuffle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Shuffle$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/shuffle.js [app-ssr] (ecmascript) <export default as Shuffle>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wallet$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wallet$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/wallet.js [app-ssr] (ecmascript) <export default as Wallet>");
 "use client";
 ;
 ;
-function BalanceCard() {
+;
+function BalanceCard({ onSeeMoreClick }) {
+    const [isBalanceVisible, setIsBalanceVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "gradient-primary rounded-2xl p-6 text-white space-y-4",
+        className: "relative p-8 text-white space-y-6 gradient-pattern rounded-3xl overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex items-start justify-between",
+                className: "relative flex items-start justify-between z-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm opacity-85 mb-1",
-                                children: "Current Balance"
+                                className: "text-sm font-medium opacity-90",
+                                children: "Hello, Misganaw"
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                                lineNumber: 11,
-                                columnNumber: 11
+                                lineNumber: 18,
+                                columnNumber: 6
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-4xl font-bold tracking-tight",
-                                children: "0.01 ETB"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-xs opacity-75 mt-0.5",
+                                children: "Welcome Back to Ethiotel"
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                                lineNumber: 12,
-                                columnNumber: 11
+                                lineNumber: 19,
+                                columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                        lineNumber: 10,
-                        columnNumber: 9
+                        lineNumber: 17,
+                        columnNumber: 5
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$credit$2d$card$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CreditCard$3e$__["CreditCard"], {
-                        size: 28,
-                        className: "opacity-75"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "p-3 bg-white/20 backdrop-blur-md rounded-full",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wallet$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wallet$3e$__["Wallet"], {
+                            size: 28,
+                            className: "opacity-100"
+                        }, void 0, false, {
+                            fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                            lineNumber: 22,
+                            columnNumber: 6
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                        lineNumber: 14,
-                        columnNumber: 9
+                        lineNumber: 21,
+                        columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                lineNumber: 9,
-                columnNumber: 7
+                lineNumber: 16,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "h-px bg-white/15"
+                className: "relative text-center space-y-3 z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-sm opacity-90 font-medium tracking-wide",
+                        children: "Current Balance"
+                    }, void 0, false, {
+                        fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                        lineNumber: 27,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex items-center justify-center gap-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "text-6xl font-bold tracking-tight",
+                                children: isBalanceVisible ? "0.01 ETB" : "••••••"
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                lineNumber: 31,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>setIsBalanceVisible(!isBalanceVisible),
+                                className: "p-2 hover:bg-white/30 rounded-full transition-all duration-300 hover:scale-110",
+                                "aria-label": "Toggle balance visibility",
+                                children: isBalanceVisible ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Eye$3e$__["Eye"], {
+                                    size: 20
+                                }, void 0, false, {
+                                    fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                    lineNumber: 38,
+                                    columnNumber: 27
+                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$eye$2d$off$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__EyeOff$3e$__["EyeOff"], {
+                                    size: 20
+                                }, void 0, false, {
+                                    fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                    lineNumber: 38,
+                                    columnNumber: 47
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                lineNumber: 34,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                        lineNumber: 30,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-xs opacity-80 font-mono tracking-wide",
+                        children: "913228892"
+                    }, void 0, false, {
+                        fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                        lineNumber: 41,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                lineNumber: 26,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative flex justify-center z-10",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    className: "bg-white/25 hover:bg-white/40 rounded-full px-6 py-2.5 text-sm font-semibold transition-all duration-300 border border-white/30 hover:border-white/50 shadow-lg",
+                    children: "Accounts"
+                }, void 0, false, {
+                    fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                    lineNumber: 46,
+                    columnNumber: 5
+                }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                lineNumber: 18,
-                columnNumber: 7
+                lineNumber: 45,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "space-y-3",
+                className: "relative grid grid-cols-4 gap-3 pt-2 z-10",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex justify-between items-center text-sm",
+                        className: "flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "opacity-85",
-                                children: "Account ID"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "p-2.5 rounded-lg bg-white/20",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__["ShoppingBag"], {
+                                    size: 20
+                                }, void 0, false, {
+                                    fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                    lineNumber: 54,
+                                    columnNumber: 7
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                                lineNumber: 23,
-                                columnNumber: 11
+                                lineNumber: 53,
+                                columnNumber: 6
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "font-medium opacity-95",
-                                children: "913228892"
-                            }, void 0, false, {
+                                className: "text-xs font-semibold text-center leading-tight",
+                                children: [
+                                    "Buy",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                        lineNumber: 58,
+                                        columnNumber: 7
+                                    }, this),
+                                    "Package"
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                                lineNumber: 24,
-                                columnNumber: 11
+                                lineNumber: 56,
+                                columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                        lineNumber: 22,
-                        columnNumber: 9
+                        lineNumber: 52,
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex justify-between items-center text-sm",
+                        className: "flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "opacity-85",
-                                children: "Status"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "p-2.5 rounded-lg bg-white/20",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__["Send"], {
+                                    size: 20
+                                }, void 0, false, {
+                                    fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                    lineNumber: 64,
+                                    columnNumber: 7
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                                lineNumber: 27,
-                                columnNumber: 11
+                                lineNumber: 63,
+                                columnNumber: 6
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "px-3 py-1 bg-white/20 rounded-full text-xs font-medium",
-                                children: "Active"
+                                className: "text-xs font-semibold text-center leading-tight",
+                                children: "Transfer"
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                                lineNumber: 28,
-                                columnNumber: 11
+                                lineNumber: 66,
+                                columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                        lineNumber: 26,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                lineNumber: 21,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-2 gap-3 pt-2",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "bg-white/20 hover:bg-white/30 rounded-lg py-3 text-sm font-medium transition-all duration-200",
-                        children: "Recharge"
-                    }, void 0, false, {
+                        lineNumber: 62,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "p-2.5 rounded-lg bg-white/20",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shuffle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Shuffle$3e$__["Shuffle"], {
+                                    size: 20
+                                }, void 0, false, {
+                                    fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                    lineNumber: 72,
+                                    columnNumber: 7
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                lineNumber: 71,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-xs font-semibold text-center leading-tight",
+                                children: [
+                                    "Share/",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                        lineNumber: 76,
+                                        columnNumber: 7
+                                    }, this),
+                                    "Convert"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                lineNumber: 74,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                        lineNumber: 34,
-                        columnNumber: 9
+                        lineNumber: 70,
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "bg-white/20 hover:bg-white/30 rounded-lg py-3 text-sm font-medium transition-all duration-200",
-                        children: "Transfer"
-                    }, void 0, false, {
+                        onClick: onSeeMoreClick,
+                        className: "flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer active:scale-95 border border-white/20 shadow-lg font-semibold",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-lg",
+                                children: "⋯"
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                lineNumber: 83,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-xs font-semibold text-center leading-tight",
+                                children: [
+                                    "See",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                        lineNumber: 86,
+                                        columnNumber: 7
+                                    }, this),
+                                    "More"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
+                                lineNumber: 84,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                        lineNumber: 37,
-                        columnNumber: 9
+                        lineNumber: 80,
+                        columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-                lineNumber: 33,
-                columnNumber: 7
+                lineNumber: 51,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Projects/tele-application-functions/components/balance-card.tsx",
-        lineNumber: 7,
-        columnNumber: 5
+        lineNumber: 14,
+        columnNumber: 3
     }, this);
 }
 }),
@@ -618,6 +799,7 @@ __turbopack_context__.s([
     ()=>QuickActions
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/shopping-bag.js [app-ssr] (ecmascript) <export default as ShoppingBag>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/send.js [app-ssr] (ecmascript) <export default as Send>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shuffle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Shuffle$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/shuffle.js [app-ssr] (ecmascript) <export default as Shuffle>");
@@ -627,42 +809,44 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$applicat
 "use client";
 ;
 ;
+;
 function QuickActions({ onPackagesClick }) {
     const actions = [
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__["ShoppingBag"],
             label: "Buy Package",
+            href: null,
             onClick: onPackagesClick,
             bgColor: "bg-blue-100 text-blue-600"
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__["Send"],
             label: "Transfer",
-            onClick: ()=>{},
+            href: "/transfer",
             bgColor: "bg-lime-100 text-lime-700"
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shuffle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Shuffle$3e$__["Shuffle"],
             label: "Share/Convert",
-            onClick: ()=>{},
+            href: "/transfer",
             bgColor: "bg-purple-100 text-purple-600"
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"],
             label: "Recharge",
-            onClick: ()=>{},
+            href: "/recharge",
             bgColor: "bg-amber-100 text-amber-600"
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"],
             label: "Family Group",
-            onClick: ()=>{},
+            href: "/family-group",
             bgColor: "bg-pink-100 text-pink-600"
         },
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$history$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__History$3e$__["History"],
             label: "History",
-            onClick: ()=>{},
+            href: "/history",
             bgColor: "bg-teal-100 text-teal-600"
         }
     ];
@@ -674,14 +858,14 @@ function QuickActions({ onPackagesClick }) {
                 children: "Quick Actions"
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
-                lineNumber: 21,
-                columnNumber: 7
+                lineNumber: 53,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid grid-cols-3 gap-4",
-                children: actions.map((action, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        onClick: action.onClick,
-                        className: "flex flex-col items-center gap-3 p-4 bg-card rounded-xl border border-border hover:border-accent hover:shadow-md transition-all active:scale-95",
+                children: actions.map((action, idx)=>{
+                    const content = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col items-center gap-3 p-4 bg-card rounded-xl border border-border hover:border-accent hover:shadow-md transition-all active:scale-95 cursor-pointer",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: `p-3 rounded-lg ${action.bgColor}`,
@@ -689,40 +873,138 @@ function QuickActions({ onPackagesClick }) {
                                     size: 20
                                 }, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
-                                    lineNumber: 30,
-                                    columnNumber: 15
+                                    lineNumber: 61,
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
-                                lineNumber: 29,
-                                columnNumber: 13
+                                lineNumber: 60,
+                                columnNumber: 8
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-xs font-medium text-center text-foreground",
                                 children: action.label
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
-                                lineNumber: 32,
-                                columnNumber: 13
+                                lineNumber: 63,
+                                columnNumber: 8
                             }, this)
                         ]
-                    }, idx, true, {
+                    }, void 0, true, {
                         fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
-                        lineNumber: 24,
-                        columnNumber: 11
-                    }, this))
+                        lineNumber: 59,
+                        columnNumber: 7
+                    }, this);
+                    if (action.href) {
+                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            href: action.href,
+                            children: content
+                        }, idx, false, {
+                            fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
+                            lineNumber: 71,
+                            columnNumber: 8
+                        }, this);
+                    }
+                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        onClick: action.onClick,
+                        children: content
+                    }, idx, false, {
+                        fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
+                        lineNumber: 78,
+                        columnNumber: 7
+                    }, this);
+                })
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
-                lineNumber: 22,
-                columnNumber: 7
+                lineNumber: 56,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Projects/tele-application-functions/components/quick-actions.tsx",
-        lineNumber: 20,
-        columnNumber: 5
+        lineNumber: 52,
+        columnNumber: 3
     }, this);
-}
+} // "use client";
+ // import Link from "next/link";
+ // import { ShoppingBag, Send, Shuffle, Zap, Users, History } from "lucide-react";
+ // interface QuickActionsProps {
+ // 	onPackagesClick?: () => void;
+ // }
+ // export function QuickActions({ onPackagesClick }: QuickActionsProps) {
+ // 	const actions = [
+ // 		{
+ // 			icon: ShoppingBag,
+ // 			label: "Buy Package",
+ // 			href: null,
+ // 			onClick: onPackagesClick,
+ // 			bgColor: "bg-blue-100 text-blue-600",
+ // 		},
+ // 		{
+ // 			icon: Send,
+ // 			label: "Transfer",
+ // 			href: "/transfer",
+ // 			bgColor: "bg-lime-100 text-lime-700",
+ // 		},
+ // 		{
+ // 			icon: Shuffle,
+ // 			label: "Share/Convert",
+ // 			href: "/share-convert",
+ // 			bgColor: "bg-purple-100 text-purple-600",
+ // 		},
+ // 		{
+ // 			icon: Zap,
+ // 			label: "Recharge",
+ // 			href: "/recharge",
+ // 			bgColor: "bg-amber-100 text-amber-600",
+ // 		},
+ // 		{
+ // 			icon: Users,
+ // 			label: "Family Group",
+ // 			href: "/family-group",
+ // 			bgColor: "bg-pink-100 text-pink-600",
+ // 		},
+ // 		{
+ // 			icon: History,
+ // 			label: "History",
+ // 			href: "/history",
+ // 			bgColor: "bg-teal-100 text-teal-600",
+ // 		},
+ // 	];
+ // 	return (
+ // 		<div className="space-y-4">
+ // 			<h3 className="text-lg font-semibold text-foreground px-2">
+ // 				Quick Actions
+ // 			</h3>
+ // 			<div className="grid grid-cols-3 gap-4">
+ // 				{actions.map((action, idx) => {
+ // 					const content = (
+ // 						<div className="flex flex-col items-center gap-3 p-4 bg-card rounded-xl border border-border hover:border-accent hover:shadow-md transition-all active:scale-95 cursor-pointer">
+ // 							<div className={`p-3 rounded-lg ${action.bgColor}`}>
+ // 								<action.icon size={20} />
+ // 							</div>
+ // 							<span className="text-xs font-medium text-center text-foreground">
+ // 								{action.label}
+ // 							</span>
+ // 						</div>
+ // 					);
+ // 					if (action.href) {
+ // 						return (
+ // 							<Link key={idx} href={action.href}>
+ // 								{content}
+ // 							</Link>
+ // 						);
+ // 					}
+ // 					return (
+ // 						<button key={idx} onClick={action.onClick}>
+ // 							{content}
+ // 						</button>
+ // 					);
+ // 				})}
+ // 			</div>
+ // 		</div>
+ // 	);
+ // }
 }),
 "[project]/Projects/tele-application-functions/components/promotion-banner.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -984,6 +1266,7 @@ __turbopack_context__.s([
     ()=>BottomNav
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$house$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Home$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/house.js [app-ssr] (ecmascript) <export default as Home>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/shopping-bag.js [app-ssr] (ecmascript) <export default as ShoppingBag>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/zap.js [app-ssr] (ecmascript) <export default as Zap>");
@@ -991,60 +1274,96 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$applicat
 "use client";
 ;
 ;
+;
 function BottomNav({ activeTab, setActiveTab }) {
     const items = [
         {
             id: "dashboard",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$house$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Home$3e$__["Home"],
-            label: "Home"
+            label: "Home",
+            href: "/"
         },
         {
             id: "packages",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__["ShoppingBag"],
-            label: "Packages"
+            label: "Packages",
+            href: null
         },
         {
             id: "recharge",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"],
-            label: "Recharge"
+            label: "Recharge",
+            href: "/recharge"
         },
         {
             id: "settings",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$settings$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Settings$3e$__["Settings"],
-            label: "Settings"
+            label: "Settings",
+            href: null
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
         className: "fixed bottom-0 left-0 right-0 bg-card border-t border-border flex items-center justify-around px-2 py-3 max-w-md mx-auto",
-        children: items.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+        children: items.map((item)=>{
+            const isActive = activeTab === item.id;
+            const buttonClass = `flex flex-col items-center gap-1 px-4 py-2 rounded-lg transition-all ${isActive ? "text-primary" : "text-muted-foreground"}`;
+            if (item.href) {
+                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    href: item.href,
+                    className: buttonClass,
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
+                            size: 20
+                        }, void 0, false, {
+                            fileName: "[project]/Projects/tele-application-functions/components/bottom-nav.tsx",
+                            lineNumber: 30,
+                            columnNumber: 8
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "text-xs font-medium",
+                            children: item.label
+                        }, void 0, false, {
+                            fileName: "[project]/Projects/tele-application-functions/components/bottom-nav.tsx",
+                            lineNumber: 31,
+                            columnNumber: 8
+                        }, this)
+                    ]
+                }, item.id, true, {
+                    fileName: "[project]/Projects/tele-application-functions/components/bottom-nav.tsx",
+                    lineNumber: 29,
+                    columnNumber: 7
+                }, this);
+            }
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 onClick: ()=>setActiveTab(item.id),
-                className: `flex flex-col items-center gap-1 px-4 py-2 rounded-lg transition-all ${activeTab === item.id ? "text-primary" : "text-muted-foreground"}`,
+                className: buttonClass,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
                         size: 20
                     }, void 0, false, {
                         fileName: "[project]/Projects/tele-application-functions/components/bottom-nav.tsx",
-                        lineNumber: 28,
-                        columnNumber: 11
+                        lineNumber: 41,
+                        columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "text-xs font-medium",
                         children: item.label
                     }, void 0, false, {
                         fileName: "[project]/Projects/tele-application-functions/components/bottom-nav.tsx",
-                        lineNumber: 29,
-                        columnNumber: 11
+                        lineNumber: 42,
+                        columnNumber: 7
                     }, this)
                 ]
             }, item.id, true, {
                 fileName: "[project]/Projects/tele-application-functions/components/bottom-nav.tsx",
-                lineNumber: 21,
-                columnNumber: 9
-            }, this))
+                lineNumber: 37,
+                columnNumber: 6
+            }, this);
+        })
     }, void 0, false, {
         fileName: "[project]/Projects/tele-application-functions/components/bottom-nav.tsx",
-        lineNumber: 19,
-        columnNumber: 5
+        lineNumber: 20,
+        columnNumber: 3
     }, this);
 }
 }),
@@ -1063,7 +1382,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$applicat
 "use client";
 ;
 ;
-function PackageCard({ package: pkg }) {
+function PackageCard({ package: pkg, showBuyButton = true }) {
     const getCategoryColor = (category)=>{
         switch(category){
             case "voice":
@@ -1089,32 +1408,32 @@ function PackageCard({ package: pkg }) {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                    lineNumber: 33,
-                    columnNumber: 16
+                    lineNumber: 37,
+                    columnNumber: 12
                 }, this);
             case "data":
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wifi$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wifi$3e$__["Wifi"], {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                    lineNumber: 35,
-                    columnNumber: 16
+                    lineNumber: 39,
+                    columnNumber: 12
                 }, this);
             case "sms":
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                    lineNumber: 37,
-                    columnNumber: 16
+                    lineNumber: 41,
+                    columnNumber: 12
                 }, this);
             default:
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__["Download"], {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                    lineNumber: 39,
-                    columnNumber: 16
+                    lineNumber: 43,
+                    columnNumber: 12
                 }, this);
         }
     };
@@ -1141,32 +1460,32 @@ function PackageCard({ package: pkg }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                            lineNumber: 56,
-                            columnNumber: 11
+                            lineNumber: 67,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                             className: "text-sm font-semibold text-foreground mb-2",
                             children: pkg.name
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                            lineNumber: 64,
-                            columnNumber: 11
+                            lineNumber: 76,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-xs text-muted-foreground mb-3",
                             children: getResourcesText()
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                            lineNumber: 67,
-                            columnNumber: 11
+                            lineNumber: 81,
+                            columnNumber: 6
                         }, this),
                         pkg.badge && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-xs font-medium text-green-600 bg-green-50 px-2 py-1 rounded w-fit mb-3",
                             children: pkg.badge
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                            lineNumber: 71,
-                            columnNumber: 13
+                            lineNumber: 87,
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-center gap-2 text-xs text-muted-foreground",
@@ -1176,27 +1495,27 @@ function PackageCard({ package: pkg }) {
                                     children: pkg.frequency.charAt(0).toUpperCase() + pkg.frequency.slice(1)
                                 }, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                                    lineNumber: 76,
-                                    columnNumber: 13
+                                    lineNumber: 94,
+                                    columnNumber: 7
                                 }, this),
                                 pkg.validity && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: pkg.validity
                                 }, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                                    lineNumber: 79,
-                                    columnNumber: 30
+                                    lineNumber: 97,
+                                    columnNumber: 24
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                            lineNumber: 75,
-                            columnNumber: 11
+                            lineNumber: 93,
+                            columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                    lineNumber: 54,
-                    columnNumber: 9
+                    lineNumber: 65,
+                    columnNumber: 5
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col items-end gap-3",
@@ -1209,55 +1528,55 @@ function PackageCard({ package: pkg }) {
                                     children: pkg.price
                                 }, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                                    lineNumber: 86,
-                                    columnNumber: 13
+                                    lineNumber: 104,
+                                    columnNumber: 7
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xs text-muted-foreground",
                                     children: "ETB"
                                 }, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                                    lineNumber: 87,
-                                    columnNumber: 13
+                                    lineNumber: 105,
+                                    columnNumber: 7
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                            lineNumber: 85,
-                            columnNumber: 11
+                            lineNumber: 103,
+                            columnNumber: 6
                         }, this),
                         pkg.popular && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "px-2 py-1 bg-accent text-accent-foreground text-xs font-semibold rounded-lg",
                             children: "Popular"
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                            lineNumber: 92,
-                            columnNumber: 13
+                            lineNumber: 110,
+                            columnNumber: 7
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        showBuyButton && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             className: "w-20 px-3 py-2 bg-primary text-primary-foreground rounded-lg text-xs font-semibold hover:bg-primary/90 transition-all active:scale-95",
                             children: "Buy"
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                            lineNumber: 96,
-                            columnNumber: 11
+                            lineNumber: 116,
+                            columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-                    lineNumber: 83,
-                    columnNumber: 9
+                    lineNumber: 101,
+                    columnNumber: 5
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-            lineNumber: 53,
-            columnNumber: 7
+            lineNumber: 64,
+            columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/Projects/tele-application-functions/components/package-card.tsx",
-        lineNumber: 52,
-        columnNumber: 5
+        lineNumber: 63,
+        columnNumber: 3
     }, this);
 }
 }),
@@ -1390,9 +1709,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$applicat
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/x.js [app-ssr] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/chevron-left.js [app-ssr] (ecmascript) <export default as ChevronLeft>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$filter$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Filter$3e$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/lucide-react/dist/esm/icons/filter.js [app-ssr] (ecmascript) <export default as Filter>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$package$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/components/package-card.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$filter$2d$panel$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/components/filter-panel.tsx [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -1407,7 +1728,6 @@ const PACKAGES = [
         voice: 57,
         sms: 3,
         price: 3,
-        frequency: "daily",
         frequency: "daily"
     },
     {
@@ -1459,7 +1779,6 @@ const PACKAGES = [
         frequency: "weekly",
         badge: "+80 Night Bonus"
     },
-    // Data Packages
     {
         id: "7",
         name: "Internet Night for 210 MB",
@@ -1512,7 +1831,6 @@ const PACKAGES = [
         frequency: "daily",
         badge: "+280 MB Bonus"
     },
-    // 5G Packages
     {
         id: "13",
         name: "Monthly 5G Package for 150GB",
@@ -1546,7 +1864,6 @@ const PACKAGES = [
         price: 2450,
         frequency: "monthly"
     },
-    // SMS Packages
     {
         id: "17",
         name: "SMS Bundle 50",
@@ -1563,7 +1880,6 @@ const PACKAGES = [
         price: 5,
         frequency: "daily"
     },
-    // CRBT
     {
         id: "19",
         name: "Normal CRBT Service",
@@ -1578,7 +1894,6 @@ const PACKAGES = [
         price: 7,
         frequency: "monthly"
     },
-    // Roaming
     {
         id: "21",
         name: "Umrah Roaming Package",
@@ -1630,21 +1945,18 @@ function PackageBrowser({ onBack }) {
     const [selectedFrequency, setSelectedFrequency] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("all");
     const [showFilters, setShowFilters] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [sortBy, setSortBy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("popular");
+    const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("buy");
     const filteredPackages = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
         let result = PACKAGES;
-        // Filter by category
         if (selectedCategory !== "all") {
             result = result.filter((p)=>p.category === selectedCategory);
         }
-        // Filter by frequency
         if (selectedFrequency !== "all") {
             result = result.filter((p)=>p.frequency === selectedFrequency);
         }
-        // Filter by search
         if (searchQuery) {
             result = result.filter((p)=>p.name.toLowerCase().includes(searchQuery.toLowerCase()));
         }
-        // Sort
         if (sortBy === "popular") {
             result = result.sort((a, b)=>{
                 if (a.popular === b.popular) return 0;
@@ -1676,21 +1988,21 @@ function PackageBrowser({ onBack }) {
                             className: "text-foreground"
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                            lineNumber: 202,
-                            columnNumber: 11
+                            lineNumber: 267,
+                            columnNumber: 6
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                        lineNumber: 201,
-                        columnNumber: 9
+                        lineNumber: 264,
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "text-xl font-semibold text-foreground flex-1",
                         children: "Packages"
                     }, void 0, false, {
                         fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                        lineNumber: 204,
-                        columnNumber: 9
+                        lineNumber: 269,
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         onClick: ()=>setShowFilters(!showFilters),
@@ -1700,19 +2012,71 @@ function PackageBrowser({ onBack }) {
                             className: "text-foreground"
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                            lineNumber: 206,
-                            columnNumber: 11
+                            lineNumber: 275,
+                            columnNumber: 6
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                        lineNumber: 205,
-                        columnNumber: 9
+                        lineNumber: 272,
+                        columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                lineNumber: 200,
-                columnNumber: 7
+                lineNumber: 263,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "bg-card border-b border-border sticky top-16 z-30 px-4 pt-3",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex gap-8",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>setActiveTab("buy"),
+                            className: `pb-3 font-semibold text-sm relative transition-colors ${activeTab === "buy" ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`,
+                            children: [
+                                "Buy Package",
+                                activeTab === "buy" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute bottom-0 left-0 right-0 h-1 bg-primary rounded-t"
+                                }, void 0, false, {
+                                    fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                                    lineNumber: 291,
+                                    columnNumber: 8
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                            lineNumber: 282,
+                            columnNumber: 6
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>setActiveTab("gift"),
+                            className: `pb-3 font-semibold text-sm relative transition-colors ${activeTab === "gift" ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`,
+                            children: [
+                                "Send a Gift",
+                                activeTab === "gift" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute bottom-0 left-0 right-0 h-1 bg-primary rounded-t"
+                                }, void 0, false, {
+                                    fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                                    lineNumber: 303,
+                                    columnNumber: 8
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                            lineNumber: 294,
+                            columnNumber: 6
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                    lineNumber: 281,
+                    columnNumber: 5
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                lineNumber: 280,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "px-4 py-4 bg-card border-b border-border",
@@ -1724,8 +2088,8 @@ function PackageBrowser({ onBack }) {
                             className: "text-muted-foreground"
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                            lineNumber: 213,
-                            columnNumber: 11
+                            lineNumber: 312,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                             type: "text",
@@ -1735,8 +2099,8 @@ function PackageBrowser({ onBack }) {
                             className: "flex-1 bg-transparent text-foreground placeholder-muted-foreground outline-none text-sm"
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                            lineNumber: 214,
-                            columnNumber: 11
+                            lineNumber: 313,
+                            columnNumber: 6
                         }, this),
                         searchQuery && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: ()=>setSearchQuery(""),
@@ -1746,24 +2110,24 @@ function PackageBrowser({ onBack }) {
                                 className: "text-muted-foreground"
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                                lineNumber: 223,
-                                columnNumber: 15
+                                lineNumber: 324,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                            lineNumber: 222,
-                            columnNumber: 13
+                            lineNumber: 321,
+                            columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                    lineNumber: 212,
-                    columnNumber: 9
+                    lineNumber: 311,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                lineNumber: 211,
-                columnNumber: 7
+                lineNumber: 310,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-card border-b border-border px-4 py-3 overflow-x-auto",
@@ -1779,18 +2143,18 @@ function PackageBrowser({ onBack }) {
                             ]
                         }, cat.id, true, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                            lineNumber: 233,
-                            columnNumber: 13
+                            lineNumber: 334,
+                            columnNumber: 7
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                    lineNumber: 231,
-                    columnNumber: 9
+                    lineNumber: 332,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                lineNumber: 230,
-                columnNumber: 7
+                lineNumber: 331,
+                columnNumber: 4
             }, this),
             showFilters && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-card border-b border-border px-4 py-4",
@@ -1801,24 +2165,43 @@ function PackageBrowser({ onBack }) {
                     onSortChange: setSortBy
                 }, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                    lineNumber: 251,
-                    columnNumber: 11
+                    lineNumber: 351,
+                    columnNumber: 6
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                lineNumber: 250,
-                columnNumber: 9
+                lineNumber: 350,
+                columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "px-4 py-6",
+                className: "px-4 py-6 pb-32",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "space-y-3",
-                    children: filteredPackages.length > 0 ? filteredPackages.map((pkg)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$package$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PackageCard"], {
-                            package: pkg
+                    children: filteredPackages.length > 0 ? filteredPackages.map((pkg)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: activeTab === "gift" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: `/packages/send-gift/${pkg.id}`,
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$package$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PackageCard"], {
+                                    package: pkg
+                                }, void 0, false, {
+                                    fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                                    lineNumber: 368,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                                lineNumber: 367,
+                                columnNumber: 10
+                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$package$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PackageCard"], {
+                                package: pkg
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                                lineNumber: 371,
+                                columnNumber: 10
+                            }, this)
                         }, pkg.id, false, {
                             fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                            lineNumber: 264,
-                            columnNumber: 43
+                            lineNumber: 365,
+                            columnNumber: 8
                         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center py-12",
                         children: [
@@ -1827,8 +2210,8 @@ function PackageBrowser({ onBack }) {
                                 children: "No packages found"
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                                lineNumber: 267,
-                                columnNumber: 15
+                                lineNumber: 377,
+                                columnNumber: 8
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: ()=>{
@@ -1840,30 +2223,52 @@ function PackageBrowser({ onBack }) {
                                 children: "Reset Filters"
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                                lineNumber: 268,
-                                columnNumber: 15
+                                lineNumber: 378,
+                                columnNumber: 8
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                        lineNumber: 266,
-                        columnNumber: 13
+                        lineNumber: 376,
+                        columnNumber: 7
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                    lineNumber: 262,
-                    columnNumber: 9
+                    lineNumber: 362,
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-                lineNumber: 261,
-                columnNumber: 7
+                lineNumber: 361,
+                columnNumber: 4
+            }, this),
+            activeTab === "buy" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "fixed bottom-0 left-0 right-0 bg-background border-t border-border p-4 z-30",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    href: "/packages/create",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "w-full py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all",
+                        children: "Create Your Own Package"
+                    }, void 0, false, {
+                        fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                        lineNumber: 396,
+                        columnNumber: 7
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                    lineNumber: 395,
+                    columnNumber: 6
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
+                lineNumber: 394,
+                columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Projects/tele-application-functions/components/package-browser.tsx",
-        lineNumber: 198,
-        columnNumber: 5
+        lineNumber: 261,
+        columnNumber: 3
     }, this);
 }
 }),
@@ -1876,6 +2281,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$header$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/components/header.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$balance$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/components/balance-card.tsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$usage$2d$stats$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/components/usage-stats.tsx [app-ssr] (ecmascript)");
@@ -1895,8 +2301,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$applicat
 ;
 ;
 ;
+;
 function Home() {
     const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("dashboard");
+    const quickActionsRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const handleSeeMore = ()=>{
+        quickActionsRef.current?.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "min-h-screen bg-background",
         children: [
@@ -1905,31 +2319,40 @@ function Home() {
                 phoneNumber: "913228892"
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                lineNumber: 18,
-                columnNumber: 7
+                lineNumber: 27,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 className: "pb-24",
                 children: activeTab === "dashboard" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                            className: "gradient-primary px-4 py-8 text-white",
+                            className: "gradient-primary text-white",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "max-w-md mx-auto",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$balance$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["BalanceCard"], {}, void 0, false, {
+                                className: "px-4 py-8",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "max-w-md mx-auto",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$balance$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["BalanceCard"], {
+                                        onSeeMoreClick: handleSeeMore
+                                    }, void 0, false, {
+                                        fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
+                                        lineNumber: 36,
+                                        columnNumber: 10
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                    lineNumber: 26,
-                                    columnNumber: 17
+                                    lineNumber: 35,
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                lineNumber: 25,
-                                columnNumber: 15
+                                lineNumber: 34,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                            lineNumber: 24,
-                            columnNumber: 13
+                            lineNumber: 33,
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "px-4 py-6",
@@ -1937,18 +2360,18 @@ function Home() {
                                 className: "max-w-md mx-auto",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$usage$2d$stats$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["UsageStats"], {}, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                    lineNumber: 33,
-                                    columnNumber: 17
+                                    lineNumber: 44,
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                lineNumber: 32,
-                                columnNumber: 15
+                                lineNumber: 43,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                            lineNumber: 31,
-                            columnNumber: 13
+                            lineNumber: 42,
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "px-4 py-3",
@@ -1956,39 +2379,40 @@ function Home() {
                                 className: "max-w-md mx-auto",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$promotion$2d$banner$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PromotionBanner"], {}, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                    lineNumber: 40,
-                                    columnNumber: 17
+                                    lineNumber: 51,
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                lineNumber: 39,
-                                columnNumber: 15
+                                lineNumber: 50,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                            lineNumber: 38,
-                            columnNumber: 13
+                            lineNumber: 49,
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "px-4 py-6",
+                            ref: quickActionsRef,
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "max-w-md mx-auto",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$quick$2d$actions$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["QuickActions"], {
                                     onPackagesClick: ()=>setActiveTab("packages")
                                 }, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                    lineNumber: 47,
-                                    columnNumber: 17
+                                    lineNumber: 58,
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                lineNumber: 46,
-                                columnNumber: 15
+                                lineNumber: 57,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                            lineNumber: 45,
-                            columnNumber: 13
+                            lineNumber: 56,
+                            columnNumber: 7
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                             className: "px-4 py-6",
@@ -1996,45 +2420,91 @@ function Home() {
                                 className: "max-w-md mx-auto",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$recent$2d$transactions$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RecentTransactions"], {}, void 0, false, {
                                     fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                    lineNumber: 54,
-                                    columnNumber: 17
+                                    lineNumber: 67,
+                                    columnNumber: 9
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                                lineNumber: 53,
-                                columnNumber: 15
+                                lineNumber: 66,
+                                columnNumber: 8
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                            lineNumber: 52,
-                            columnNumber: 13
+                            lineNumber: 65,
+                            columnNumber: 7
                         }, this)
                     ]
-                }, void 0, true) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$package$2d$browser$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PackageBrowser"], {
+                }, void 0, true) : activeTab === "packages" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$package$2d$browser$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PackageBrowser"], {
                     onBack: ()=>setActiveTab("dashboard")
                 }, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                    lineNumber: 59,
-                    columnNumber: 11
+                    lineNumber: 72,
+                    columnNumber: 6
+                }, this) : activeTab === "recharge" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "px-4 py-6",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center py-12",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-gray-600 mb-4",
+                                children: "Redirecting to Recharge..."
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
+                                lineNumber: 76,
+                                columnNumber: 8
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/recharge",
+                                className: "text-lime-600 hover:underline",
+                                children: "Click here if not redirected"
+                            }, void 0, false, {
+                                fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
+                                lineNumber: 77,
+                                columnNumber: 8
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
+                        lineNumber: 75,
+                        columnNumber: 7
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
+                    lineNumber: 74,
+                    columnNumber: 6
+                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "px-4 py-6",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "text-center py-12 text-gray-600",
+                        children: "Section coming soon"
+                    }, void 0, false, {
+                        fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
+                        lineNumber: 84,
+                        columnNumber: 7
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
+                    lineNumber: 83,
+                    columnNumber: 6
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                lineNumber: 20,
-                columnNumber: 7
+                lineNumber: 29,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$components$2f$bottom$2d$nav$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["BottomNav"], {
                 activeTab: activeTab,
                 setActiveTab: setActiveTab
             }, void 0, false, {
                 fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-                lineNumber: 63,
-                columnNumber: 7
+                lineNumber: 91,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Projects/tele-application-functions/app/page.tsx",
-        lineNumber: 17,
-        columnNumber: 5
+        lineNumber: 26,
+        columnNumber: 3
     }, this);
 }
 }),
