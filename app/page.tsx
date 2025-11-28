@@ -81,9 +81,7 @@ export default function Home() {
 					</div>
 				) : (
 					<div className="px-4 py-6">
-						<div className="text-center py-12 text-gray-600">
-							Section coming soon
-						</div>
+						<div className="text-center py-12 text-gray-600">Loading...</div>
 					</div>
 				)}
 			</main>

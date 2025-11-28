@@ -6,11 +6,13 @@ import type { Package } from "./package-browser";
 interface PackageCardProps {
 	package: Package;
 	showBuyButton?: boolean;
+	buy: string;
 }
 
 export function PackageCard({
 	package: pkg,
 	showBuyButton = true,
+	buy,
 }: PackageCardProps) {
 	const getCategoryColor = (category: string) => {
 		switch (category) {
@@ -112,9 +114,14 @@ export function PackageCard({
 						</span>
 					)}
 
-					{showBuyButton && (
+					{showBuyButton && buy === "send" && (
 						<button className="w-20 px-3 py-2 bg-primary text-primary-foreground rounded-lg text-xs font-semibold hover:bg-primary/90 transition-all active:scale-95">
 							Buy
+						</button>
+					)}
+					{showBuyButton && buy === "buy" && (
+						<button className="w-20 px-3 py-2 bg-primary text-primary-foreground rounded-lg text-xs font-semibold hover:bg-primary/90 transition-all active:scale-95">
+							Send
 						</button>
 					)}
 				</div>

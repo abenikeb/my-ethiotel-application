@@ -365,10 +365,10 @@ export function PackageBrowser({ onBack }: PackageBrowserProps) {
 							<div key={pkg.id}>
 								{activeTab === "gift" ? (
 									<Link href={`/packages/send-gift/${pkg.id}`}>
-										<PackageCard package={pkg} />
+										<PackageCard package={pkg} buy="buy" />
 									</Link>
 								) : (
-									<PackageCard package={pkg} />
+									<PackageCard package={pkg} buy="send" />
 								)}
 							</div>
 						))

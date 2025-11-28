@@ -12,6 +12,7 @@ import {
 	Wallet,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface BalanceCardProps {
 	onSeeMoreClick?: () => void;
@@ -67,8 +68,8 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 						Current Balance
 					</p>
 					<div className="flex items-center justify-center gap-3">
-						<h2 className="text-6xl font-bold tracking-tight">
-							{isBalanceVisible ? "0.01 ETB" : "••••••"}
+						<h2 className="text-5xl font-bold tracking-tight">
+							{isBalanceVisible ? "50.01 ETB" : "••••••"}
 						</h2>
 						<button
 							onClick={() => setIsBalanceVisible(!isBalanceVisible)}
@@ -90,7 +91,9 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 				</div>
 
 				<div className="relative grid grid-cols-4 gap-3 pt-2 z-10">
-					<div className="flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg">
+					<Link
+						href="/packages"
+						className="flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg">
 						<div className="p-2.5 rounded-lg bg-white/20">
 							<ShoppingBag size={20} />
 						</div>
@@ -99,25 +102,29 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 							<br />
 							Package
 						</span>
-					</div>
-					<div className="flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg">
+					</Link>
+					<Link
+						href="/transfer"
+						className="flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg">
 						<div className="p-2.5 rounded-lg bg-white/20">
 							<Send size={20} />
 						</div>
 						<span className="text-xs font-semibold text-center leading-tight">
 							Transfer
 						</span>
-					</div>
-					<div className="flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg">
+					</Link>
+					<Link
+						href="/recharge"
+						className="flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer border border-white/20 shadow-lg">
 						<div className="p-2.5 rounded-lg bg-white/20">
 							<Shuffle size={20} />
 						</div>
 						<span className="text-xs font-semibold text-center leading-tight">
-							Share/
+							Recharge
 							<br />
-							Convert
+							Payment
 						</span>
-					</div>
+					</Link>
 					<button
 						onClick={onSeeMoreClick}
 						className="flex flex-col items-center gap-2 p-3.5 bg-white/15 hover:bg-white/30 rounded-2xl transition-all duration-300 hover:scale-110 cursor-pointer active:scale-95 border border-white/20 shadow-lg font-semibold">
