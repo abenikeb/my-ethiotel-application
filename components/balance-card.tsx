@@ -51,18 +51,6 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 			</header>
 
 			<div className="pl-8 pr-8 space-y-6">
-				{/* <div className="relative flex items-start justify-between z-10">
-					<div>
-						<p className="text-sm font-medium opacity-90">Hello, Misganaw</p>
-						<p className="text-xs opacity-75 mt-0.5">
-							Welcome Back to Ethiotel
-						</p>
-					</div>
-					<div className="p-3 bg-white/20 backdrop-blur-md rounded-full">
-						<Wallet size={28} className="opacity-100" />
-					</div>
-				</div> */}
-
 				<div className="relative text-center space-y-3 z-10">
 					<p className="text-sm opacity-90 font-medium tracking-wide">
 						Current Balance
