@@ -66,6 +66,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$applicat
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_a7695b8e$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/geist_a7695b8e.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$geist_mono_354fc78$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/geist_mono_354fc78.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Projects/tele-application-functions/node_modules/@vercel/analytics/dist/next/index.mjs [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module './layout-wrapper'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+;
 ;
 ;
 ;
@@ -98,65 +104,31 @@ function RootLayout({ children }) {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
             className: `font-sans antialiased`,
             children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(LayoutWrapper, {
+                    children: children
+                }, void 0, false, {
+                    fileName: "[project]/Projects/tele-application-functions/app/layout.tsx",
+                    lineNumber: 41,
+                    columnNumber: 5
+                }, this),
                 children,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Projects$2f$tele$2d$application$2d$functions$2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                     fileName: "[project]/Projects/tele-application-functions/app/layout.tsx",
-                    lineNumber: 41,
+                    lineNumber: 43,
                     columnNumber: 5
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Projects/tele-application-functions/app/layout.tsx",
-            lineNumber: 39,
+            lineNumber: 40,
             columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/Projects/tele-application-functions/app/layout.tsx",
-        lineNumber: 38,
+        lineNumber: 39,
         columnNumber: 3
     }, this);
-} // import type { Metadata } from "next";
- // import { Geist, Geist_Mono } from "next/font/google";
- // import { Analytics } from "@vercel/analytics/next";
- // import "./globals.css";
- // const _geist = Geist({ subsets: ["latin"] });
- // const _geistMono = Geist_Mono({ subsets: ["latin"] });
- // export const metadata: Metadata = {
- // 	title: "myethio-tel App",
- // 	description: "Created with myethio-tel",
- // 	generator: "myethio-tel.app",
- // 	icons: {
- // 		icon: [
- // 			{
- // 				url: "/icon-light-32x32.png",
- // 				media: "(prefers-color-scheme: light)",
- // 			},
- // 			{
- // 				url: "/icon-dark-32x32.png",
- // 				media: "(prefers-color-scheme: dark)",
- // 			},
- // 			{
- // 				url: "/icon.svg",
- // 				type: "image/svg+xml",
- // 			},
- // 		],
- // 		apple: "/apple-icon.png",
- // 	},
- // };
- // export default function RootLayout({
- // 	children,
- // }: Readonly<{
- // 	children: React.ReactNode;
- // }>) {
- // 	return (
- // 		<html lang="en">
- // 			<body className={`font-sans antialiased`}>
- // 				{children}
- // 				<Analytics />
- // 			</body>
- // 		</html>
- // 	);
- // }
+}
 }),
 "[project]/Projects/tele-application-functions/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 "use strict";
