@@ -809,3 +809,1279 @@ It can also happen if the client has a browser extension installed which messes 
 [00:42:11.812] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/packages color: rgb(120, 120, 120) color: inherit {"dp":"/packages","o":"http://localhost:3000/packages","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770195409199}
 [00:42:13.619] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/packages/create color: rgb(120, 120, 120) color: inherit {"dp":"/packages/create","o":"http://localhost:3000/packages/create","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770195411009}
 [00:42:15.282] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/packages color: rgb(120, 120, 120) color: inherit {"dp":"/packages","o":"http://localhost:3000/packages","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770195412672}
+[23:35:16.943] Server  LOG      ✓ Compiled in 201ms
+[23:35:18.915] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/packages color: rgb(120, 120, 120) color: inherit {"dp":"/packages","o":"http://localhost:3000/packages","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770277792105}
+[23:35:18.915] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/packages color: rgb(120, 120, 120) color: inherit {"dp":"/packages","o":"http://localhost:3000/packages","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770277792110}
+[23:40:12.415] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278085609}
+[23:40:22.000] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/family-group" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+                          >
+                  ...
+
+[23:40:22.484] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[23:40:22.484] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/family-group","route":"/family-group"}
+[23:40:22.484] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/family-group color: rgb(120, 120, 120) color: inherit {"dp":"/family-group","o":"http://localhost:3000/family-group","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278095657}
+[23:45:24.424] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+                          >
+                  ...
+
+[23:45:25.081] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[23:45:25.082] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[23:45:25.082] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278398238}
+[23:45:27.355] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/history" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+                          >
+                  ...
+
+[23:45:27.660] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[23:45:27.664] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/history","route":"/history"}
+[23:45:27.665] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/history color: rgb(120, 120, 120) color: inherit {"dp":"/history","o":"http://localhost:3000/history","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278400823}
+[23:50:02.721] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/history" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+-                           data-new-gr-c-s-check-loaded="14.1271.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[23:50:03.611] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[23:50:03.611] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/history","route":"/history"}
+[23:50:03.611] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/history color: rgb(120, 120, 120) color: inherit {"dp":"/history","o":"http://localhost:3000/history","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278676261}
+[23:50:21.401] Server  LOG      ✓ Compiled in 481ms
+[23:51:08.969] Server  LOG      ✓ Compiled in 395ms
+[23:51:37.602] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.668] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.683] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.707] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.713] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.717] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.727] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.738] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.747] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:37.756] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.758] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.759] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.761] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.768] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.772] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.777] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.779] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:37.788] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:40.938] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.940] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.941] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.942] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.944] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.945] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.948] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.950] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.952] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:40.960] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.962] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.964] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.966] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.968] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.969] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.970] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.972] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:40.973] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.074] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.075] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.077] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.078] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.079] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.081] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.082] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.083] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.084] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.089] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.091] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.092] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.093] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.095] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.097] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.098] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.100] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.102] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.169] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.172] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.175] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.178] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.179] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.180] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.184] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.186] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.187] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.192] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.194] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.196] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.198] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.200] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.202] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.204] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.206] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.207] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.334] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.335] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.336] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.337] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.338] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.339] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.341] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.342] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.344] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.350] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.352] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.354] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.355] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.357] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.359] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.360] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.370] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.456] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.641] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.642] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.644] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.645] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.647] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.648] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.649] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.651] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.652] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.658] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.659] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.661] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.663] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.664] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.666] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.668] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.669] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.671] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.760] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.761] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.763] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.764] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.766] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.767] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.768] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.770] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.771] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.776] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.777] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.781] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.782] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.784] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.786] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.789] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.790] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.792] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.866] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.867] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.868] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.870] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.871] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.873] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.874] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.875] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.876] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:41.881] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.883] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.884] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.885] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.887] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.888] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.889] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.891] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:41.892] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:42.044] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.058] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.063] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.068] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.073] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.074] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.085] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.087] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.089] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:42.129] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.148] Server  ERROR   D:\Projects\tele-application-functions\.next\dev\server\chunks\ssr\ee6e1_next_dist_a2e4ac47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.152] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.153] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.155] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.156] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.159] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.160] Server  ERROR   D:\Projects\tele-application-functions\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[23:51:42.162] Server  ERROR    ⨯ Error: The default export is not a React Component in "/history/page"
+[23:51:42.236] Server  LOG      ✓ Compiled in 226ms
+[23:51:45.423] Server  LOG      ✓ Compiled in 296ms
+[23:51:45.570] Server  ERROR    ⨯ ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+
+./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+[23:51:46.107] Server  ERROR    ⨯ ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+
+./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+[23:51:46.175] Server  ERROR    ⨯ ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+
+./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+[23:51:46.241] Server  ERROR    ⨯ ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+
+./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+[23:51:46.311] Server  ERROR    ⨯ ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+
+./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+[23:51:46.374] Server  ERROR    ⨯ ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+
+./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.468] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:46.509] Server  ERROR    ⨯ ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+
+./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+[23:51:47.283] Browser ERROR   uncaughtError: Error: ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+
+[23:51:48.619] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:48.619] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:48.619] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:51:48.619] Browser ERROR   ./Projects/tele-application-functions/app/history/page.tsx:3:1
+Export TransactionHistory doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { TransactionHistory } from "@/components/transaction-history";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function HistoryPage() {
+  6 | 	return (
+
+The export TransactionHistory was not found in module [project]/Projects/tele-application-functions/components/transaction-history [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component Browser]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Projects/tele-application-functions/app/history/page.tsx [Client Component SSR]
+    ./Projects/tele-application-functions/app/history/page.tsx [Server Component]
+[23:52:07.287] Server  LOG      ✓ Compiled in 144ms
+[23:52:17.264] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/history" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+-                           data-new-gr-c-s-check-loaded="14.1271.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[23:52:18.033] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[23:52:18.033] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/history","route":"/history"}
+[23:52:18.033] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/history color: rgb(120, 120, 120) color: inherit {"dp":"/history","o":"http://localhost:3000/history","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278811238}
+[23:52:36.648] Server  LOG      ✓ Compiled in 616ms
+[23:53:01.926] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278855079}
+[23:53:06.584] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/family-group color: rgb(120, 120, 120) color: inherit {"dp":"/family-group","o":"http://localhost:3000/family-group","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278859792}
+[23:53:12.467] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770278865665}
+[23:55:54.686] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/recharge color: rgb(120, 120, 120) color: inherit {"dp":"/recharge","o":"http://localhost:3000/recharge","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279027851}
+[23:55:57.563] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/packages color: rgb(120, 120, 120) color: inherit {"dp":"/packages","o":"http://localhost:3000/packages","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279030703}
+[23:55:59.218] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/recharge color: rgb(120, 120, 120) color: inherit {"dp":"/recharge","o":"http://localhost:3000/recharge","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279032426}
+[23:56:04.999] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279038204}
+[23:56:10.554] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/packages color: rgb(120, 120, 120) color: inherit {"dp":"/packages","o":"http://localhost:3000/packages","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279043760}
+[23:56:16.486] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/recharge color: rgb(120, 120, 120) color: inherit {"dp":"/recharge","o":"http://localhost:3000/recharge","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279049692}
+[23:56:18.740] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279051946}
+[23:57:39.562] Server  LOG      ✓ Compiled in 247ms
+[23:58:02.116] Server  LOG      ✓ Compiled in 417ms
+[24:04:24.432] Server  LOG      ✓ Compiled in 444ms
+[24:06:01.758] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+-                           data-new-gr-c-s-check-loaded="14.1271.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[24:06:02.643] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[24:06:02.644] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[24:06:02.644] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279635837}
+[24:06:36.726] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+                          >
+                  ...
+
+[24:06:37.264] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[24:06:37.264] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[24:06:37.264] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770279670447}
+[24:07:26.146] Server  LOG      ✓ Compiled in 325ms
+[24:07:44.670] Server  LOG      ✓ Compiled in 738ms
+[24:08:15.103] Server  LOG      ✓ Compiled in 192ms
+[24:09:06.691] Server  LOG      ✓ Compiled in 527ms
+[24:09:29.632] Server  LOG      ✓ Compiled in 388ms
+[24:09:55.458] Server  LOG      ✓ Compiled in 170ms
+[24:13:00.396] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Projects/...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
++                           className="font-sans antialiased"
+-                           className="font-sans antialiased clickup-chrome-ext_installed"
+                          >
+                  ...
+
+[24:13:00.924] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[24:13:00.924] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[24:13:00.924] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770280054132}
+[24:13:10.549] Browser LOG     Banner clicked: TelePlay Prizes

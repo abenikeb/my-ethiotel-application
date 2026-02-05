@@ -1,6 +1,31 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": []
+    "/_app": [
+      "static/chunks/ee6e1_next_dist_compiled_e42c902b._.js",
+      "static/chunks/ee6e1_next_dist_shared_lib_0adc193e._.js",
+      "static/chunks/ee6e1_next_dist_client_e14679db._.js",
+      "static/chunks/ee6e1_next_dist_45f613cf._.js",
+      "static/chunks/ee6e1_next_app_f609645d.js",
+      "static/chunks/[next]_entry_page-loader_ts_fb652793._.js",
+      "static/chunks/ee6e1_react-dom_32d8a41c._.js",
+      "static/chunks/ee6e1_3c943ec0._.js",
+      "static/chunks/[root-of-the-server]__95329678._.js",
+      "static/chunks/Projects_tele-application-functions_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Projects_tele-application-functions_pages__app_98683468._.js"
+    ],
+    "/_error": [
+      "static/chunks/ee6e1_next_dist_compiled_e42c902b._.js",
+      "static/chunks/ee6e1_next_dist_shared_lib_a9b78ece._.js",
+      "static/chunks/ee6e1_next_dist_client_e14679db._.js",
+      "static/chunks/ee6e1_next_dist_43ee54cd._.js",
+      "static/chunks/ee6e1_next_error_84776570.js",
+      "static/chunks/[next]_entry_page-loader_ts_26ccd8e5._.js",
+      "static/chunks/ee6e1_react-dom_32d8a41c._.js",
+      "static/chunks/ee6e1_3c943ec0._.js",
+      "static/chunks/[root-of-the-server]__79d15a66._.js",
+      "static/chunks/Projects_tele-application-functions_pages__error_2da965e7._.js",
+      "static/chunks/turbopack-Projects_tele-application-functions_pages__error_2f2a2a65._.js"
+    ]
   },
   "devFiles": [],
   "polyfillFiles": [
