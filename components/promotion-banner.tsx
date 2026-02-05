@@ -85,9 +85,7 @@ export function PromotionBanner() {
 						msOverflowStyle: "none",
 					}}>
 					{promotions.map((promotion, index) => (
-						<div
-							key={promotion.id}
-							className="flex-shrink-0 w-[350px] snap-start">
+						<div key={promotion.id} className="flex-shrink-0 w-80 snap-start">
 							<button
 								onClick={() => handleBannerClick(promotion)}
 								className="relative w-full h-36 rounded-2xl overflow-hidden group cursor-pointer focus:outline-none focus:ring-2 focus:ring-lime-500 focus:ring-offset-2 transition-transform duration-300 hover:scale-105">
@@ -97,7 +95,7 @@ export function PromotionBanner() {
 									alt={promotion.title}
 									fill
 									className="object-cover transition-transform duration-300 group-hover:scale-110"
-									sizes="(max-width: 640px) 100vw, 350px"
+									sizes="(max-width: 640px) 100vw, 320px"
 									priority={index === 0}
 								/>
 
