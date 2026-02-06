@@ -93,13 +93,13 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 			</div>
 
 			{/* Action Buttons - Single Card Container */}
-			<div className="z-10 px-6 pb-8 absolute w-11/12 left-0 right-0 mx-auto top-52">
+			<div className="z-10 px-6 pb-8 absolute w-[95%] left-0 right-0 mx-auto top-52">
 				<div className="bg-white rounded-2xl shadow-lg p-5 flex items-center justify-around">
 					<Link
 						href="/packages"
 						className="flex flex-col items-center gap-3 group hover:opacity-80 transition-opacity">
 						<div className="rounded-xl ">
-							<ShoppingBag size={25} className="text-lime-600" />
+							<ShoppingBag size={22} className="text-lime-600" />
 						</div>
 						<span className="text-xs text-gray-800 font-semibold text-center leading-tight">
 							Buy Package
@@ -111,7 +111,7 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 						href="/transfer"
 						className="flex flex-col items-center gap-3 group hover:opacity-80 transition-opacity">
 						<div className="rounded-xl ">
-							<Send size={25} className="text-lime-600" />
+							<Send size={22} className="text-lime-600" />
 						</div>
 						<span className="text-xs text-gray-800 font-semibold text-center leading-tight">
 							transfer
@@ -123,7 +123,7 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 						href="/recharge"
 						className="flex flex-col items-center gap-3 group hover:opacity-80 transition-opacity">
 						<div className="rounded-xl ">
-							<Shuffle size={25} className="text-lime-600" />
+							<Shuffle size={22} className="text-lime-600" />
 						</div>
 						<span className="text-xs text-gray-800 font-semibold text-center leading-tight">
 							Recharge
@@ -135,7 +135,7 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 						onClick={onSeeMoreClick}
 						className="flex flex-col items-center gap-3 group hover:opacity-80 transition-opacity">
 						<div className="rounded-xl ">
-							<MoreHorizontalIcon size={25} className="text-lime-600" />
+							<MoreHorizontalIcon size={22} className="text-lime-600" />
 						</div>
 						<span className="text-xs text-gray-800 font-semibold text-center leading-tight">
 							See more

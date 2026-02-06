@@ -1466,6 +1466,14 @@
     width: calc(var(--spacing) * 80);
   }
 
+  .w-\[90\%\] {
+    width: 90%;
+  }
+
+  .w-\[95\%\] {
+    width: 95%;
+  }
+
   .w-\[100px\] {
     width: 100px;
   }
