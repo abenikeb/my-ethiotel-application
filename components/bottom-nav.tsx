@@ -19,8 +19,13 @@ export function BottomNav({ activeTab, setActiveTab }: BottomNavProps) {
 			href: "/packages",
 			isCenter: true,
 		},
-		{ id: "share", icon: Share2, label: "Share", href: "/transfer" },
-		{ id: "rechange", icon: RefreshCw, label: "Recharge", href: "/recharge" },
+		{
+			id: "family-group",
+			icon: Share2,
+			label: "Family",
+			href: "/family-group",
+		},
+		{ id: "recharge", icon: RefreshCw, label: "Recharge", href: "/recharge" },
 	];
 
 	const leftItems = items.slice(0, 2);
@@ -51,13 +56,15 @@ export function BottomNav({ activeTab, setActiveTab }: BottomNavProps) {
 			<Link
 				href={centerItem.href}
 				className={`flex flex-col items-center justify-center gap-1 mx-4 transition-all transform hover:scale-110 ${
-					activeTab === centerItem.id ? "text-primary" : "text-muted-foreground"
+					activeTab === centerItem.id
+						? "text-muted-foreground "
+						: "text-primary"
 				}`}>
 				<div
 					className={`w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition-all ${
 						activeTab === centerItem.id
-							? "bg-primary text-white"
-							: "bg-primary/10 text-primary"
+							? "bg-primary/10 text-primary"
+							: "bg-primary text-white "
 					}`}>
 					<centerItem.icon size={32} />
 				</div>

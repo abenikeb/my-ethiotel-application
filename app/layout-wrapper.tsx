@@ -14,10 +14,11 @@ export function LayoutWrapper({
 
 	// Map pathname to active tab
 	const getActiveTab = () => {
-		if (pathname === "/") return "dashboard";
+		if (pathname === "/") return "home";
+		if (pathname.startsWith("/transfer")) return "transfer";
 		if (pathname.startsWith("/packages")) return "packages";
 		if (pathname.startsWith("/recharge")) return "recharge";
-		if (pathname.startsWith("/settings")) return "settings";
+		if (pathname.startsWith("/family-group")) return "family-group";
 		return "dashboard";
 	};
 
