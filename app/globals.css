@@ -166,7 +166,7 @@
 	} */
 
 	.gradient-primary {
-		@apply bg-gradient-to-b from-[#a3d977] via-[#2da870] to-[#1e3c72];
+		@apply bg-gradient-to-b from-[#7dce3b] via-[#7dce3b] to-[#7dce3b];
 		background-size: 100% 150%;
 		background-position: 0 -10px;
 		position: relative;
@@ -181,7 +181,8 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-image: radial-gradient(
+		background-image:
+			radial-gradient(
 				circle at 20% 50%,
 				rgba(255, 255, 255, 0.03) 1px,
 				transparent 1px
@@ -196,8 +197,14 @@
 				rgba(163, 217, 119, 0.05) 1.5px,
 				transparent 1.5px
 			);
-		background-size: 80px 80px, 120px 120px, 150px 150px;
-		background-position: 0 0, 40px 60px, 0 0;
+		background-size:
+			80px 80px,
+			120px 120px,
+			150px 150px;
+		background-position:
+			0 0,
+			40px 60px,
+			0 0;
 		pointer-events: none;
 		animation: drift 20s linear infinite;
 	}

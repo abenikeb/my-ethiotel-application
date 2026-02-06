@@ -22,7 +22,7 @@ export default function Home() {
 		<div className="min-h-screen bg-background">
 			<main className="pb-24">
 				{/* Hero Section with Balance - extends full gradient */}
-				<section className="gradient-primary text-white">
+				<section className="bg-gradient-to-r from-lime-500 to-lime-500 text-white">
 					<div className="px-0 pb-8 pt-2">
 						<div className="max-w-md mx-auto">
 							<BalanceCard onSeeMoreClick={handleSeeMore} />
