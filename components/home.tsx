@@ -27,92 +27,97 @@ export default function Home() {
 						<div className="relative max-w-md mx-auto">
 							<BalanceCard onSeeMoreClick={handleSeeMore} />
 							<svg
-								className="absolute top-0 left-0 w-full h-40 pointer-events-none"
-								viewBox="0 0 400 250"
+								className="absolute top-0 left-0 w-full h-48 pointer-events-none overflow-visible"
+								viewBox="0 0 400 300"
 								preserveAspectRatio="xMidYMid slice"
 								xmlns="http://www.w3.org/2000/svg">
-								<defs>
-									<pattern
-										id="sphericalCurves"
-										x="0"
-										y="0"
-										width="100"
-										height="250"
-										patternUnits="userSpaceOnUse">
-										{/* Concentric spherical curves */}
-										<path
-											d="M0,20 Q25,15 50,20 T100,20"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.3"
-										/>
-										<path
-											d="M0,40 Q25,35 50,40 T100,40"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.25"
-										/>
-										<path
-											d="M0,60 Q25,55 50,60 T100,60"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.2"
-										/>
-										<path
-											d="M0,80 Q25,75 50,80 T100,80"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.18"
-										/>
-										<path
-											d="M0,100 Q25,95 50,100 T100,100"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.15"
-										/>
-										<path
-											d="M0,120 Q25,115 50,120 T100,120"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.12"
-										/>
-										<path
-											d="M0,140 Q25,135 50,140 T100,140"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.1"
-										/>
-										<path
-											d="M0,160 Q25,155 50,160 T100,160"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.08"
-										/>
-										<path
-											d="M0,180 Q25,175 50,180 T100,180"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.06"
-										/>
-										<path
-											d="M0,200 Q25,195 50,200 T100,200"
-											stroke="white"
-											strokeWidth="0.8"
-											fill="none"
-											opacity="0.05"
-										/>
-									</pattern>
-								</defs>
-								<rect width="400" height="250" fill="url(#sphericalCurves)" />
+								{/* Left side - curves flowing INWARD toward center */}
+								<path
+									d="M -50 20 Q 50 15 180 80"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.35"
+								/>
+								<path
+									d="M -30 40 Q 60 35 190 100"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.3"
+								/>
+								<path
+									d="M -10 60 Q 70 55 200 120"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.25"
+								/>
+								<path
+									d="M 5 85 Q 80 80 210 145"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.2"
+								/>
+								<path
+									d="M 20 110 Q 90 105 220 170"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.15"
+								/>
+								<path
+									d="M 35 135 Q 100 130 230 195"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.12"
+								/>
+
+								{/* Right side - curves flowing INWARD toward center (mirror of left) */}
+								<path
+									d="M 450 20 Q 350 15 220 80"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.35"
+								/>
+								<path
+									d="M 430 40 Q 340 35 210 100"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.3"
+								/>
+								<path
+									d="M 410 60 Q 330 55 200 120"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.25"
+								/>
+								<path
+									d="M 395 85 Q 320 80 190 145"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.2"
+								/>
+								<path
+									d="M 380 110 Q 310 105 180 170"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.15"
+								/>
+								<path
+									d="M 365 135 Q 300 130 170 195"
+									stroke="white"
+									strokeWidth="1.2"
+									fill="none"
+									opacity="0.12"
+								/>
 							</svg>
 						</div>
 					</div>

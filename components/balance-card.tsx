@@ -36,10 +36,16 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 							className="object-contain p-1"
 						/>
 					</div>
+					{/* <div>
+						 <h1 className="text-lg font-bold tracking-tight">My Ethiotel</h1>
+						<p className="text-sm font-medium opacity-90">Hello, Misganaw</p>
+						
+					</div> */}
 					<div>
-						<h1 className="text-base font-bold text-white drop-shadow-sm">
-							Selam Abebe
+						<h1 className="text-base font-bold text-white -mb-0.5 ">
+							My Ethiotel
 						</h1>
+						<h1 className="text-sm text-white drop-shadow-sm">Selam Abebe</h1>
 					</div>
 				</div>
 
@@ -88,11 +94,11 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 
 			{/* Action Buttons - Single Card Container */}
 			<div className="z-10 px-6 pb-8 absolute w-11/12 left-0 right-0 mx-auto top-52">
-				<div className="bg-white rounded-2xl shadow-lg p-4 flex items-center justify-around">
+				<div className="bg-white rounded-2xl shadow-lg p-5 flex items-center justify-around">
 					<Link
 						href="/packages"
-						className="flex flex-col items-center gap-2 group hover:opacity-80 transition-opacity">
-						<div className="p-2.5 rounded-xl ">
+						className="flex flex-col items-center gap-3 group hover:opacity-80 transition-opacity">
+						<div className="rounded-xl ">
 							<ShoppingBag size={25} className="text-lime-600" />
 						</div>
 						<span className="text-xs text-gray-800 font-semibold text-center leading-tight">
@@ -103,8 +109,8 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 
 					<Link
 						href="/transfer"
-						className="flex flex-col items-center gap-2 group hover:opacity-80 transition-opacity">
-						<div className="p-2.5 rounded-xl ">
+						className="flex flex-col items-center gap-3 group hover:opacity-80 transition-opacity">
+						<div className="rounded-xl ">
 							<Send size={25} className="text-lime-600" />
 						</div>
 						<span className="text-xs text-gray-800 font-semibold text-center leading-tight">
@@ -115,8 +121,8 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 
 					<Link
 						href="/recharge"
-						className="flex flex-col items-center gap-2 group hover:opacity-80 transition-opacity">
-						<div className="p-2.5 rounded-xl ">
+						className="flex flex-col items-center gap-3 group hover:opacity-80 transition-opacity">
+						<div className="rounded-xl ">
 							<Shuffle size={25} className="text-lime-600" />
 						</div>
 						<span className="text-xs text-gray-800 font-semibold text-center leading-tight">
@@ -127,8 +133,8 @@ export function BalanceCard({ onSeeMoreClick }: BalanceCardProps) {
 
 					<button
 						onClick={onSeeMoreClick}
-						className="flex flex-col items-center gap-2 group hover:opacity-80 transition-opacity">
-						<div className="p-2.5 rounded-xl ">
+						className="flex flex-col items-center gap-3 group hover:opacity-80 transition-opacity">
+						<div className="rounded-xl ">
 							<MoreHorizontalIcon size={25} className="text-lime-600" />
 						</div>
 						<span className="text-xs text-gray-800 font-semibold text-center leading-tight">
