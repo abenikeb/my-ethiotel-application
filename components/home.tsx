@@ -22,10 +22,98 @@ export default function Home() {
 		<div className="min-h-screen bg-background">
 			<main className="pb-24">
 				{/* Hero Section with Balance - extends full gradient */}
-				<section className="bg-gradient-to-r from-lime-500 to-lime-500 text-white">
-					<div className="px-0 pb-8 pt-2">
-						<div className="max-w-md mx-auto">
+				<section className="">
+					<div className="px-0">
+						<div className="relative max-w-md mx-auto">
 							<BalanceCard onSeeMoreClick={handleSeeMore} />
+							<svg
+								className="absolute top-0 left-0 w-full h-40 pointer-events-none"
+								viewBox="0 0 400 250"
+								preserveAspectRatio="xMidYMid slice"
+								xmlns="http://www.w3.org/2000/svg">
+								<defs>
+									<pattern
+										id="sphericalCurves"
+										x="0"
+										y="0"
+										width="100"
+										height="250"
+										patternUnits="userSpaceOnUse">
+										{/* Concentric spherical curves */}
+										<path
+											d="M0,20 Q25,15 50,20 T100,20"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.3"
+										/>
+										<path
+											d="M0,40 Q25,35 50,40 T100,40"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.25"
+										/>
+										<path
+											d="M0,60 Q25,55 50,60 T100,60"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.2"
+										/>
+										<path
+											d="M0,80 Q25,75 50,80 T100,80"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.18"
+										/>
+										<path
+											d="M0,100 Q25,95 50,100 T100,100"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.15"
+										/>
+										<path
+											d="M0,120 Q25,115 50,120 T100,120"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.12"
+										/>
+										<path
+											d="M0,140 Q25,135 50,140 T100,140"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.1"
+										/>
+										<path
+											d="M0,160 Q25,155 50,160 T100,160"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.08"
+										/>
+										<path
+											d="M0,180 Q25,175 50,180 T100,180"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.06"
+										/>
+										<path
+											d="M0,200 Q25,195 50,200 T100,200"
+											stroke="white"
+											strokeWidth="0.8"
+											fill="none"
+											opacity="0.05"
+										/>
+									</pattern>
+								</defs>
+								<rect width="400" height="250" fill="url(#sphericalCurves)" />
+							</svg>
 						</div>
 					</div>
 				</section>
