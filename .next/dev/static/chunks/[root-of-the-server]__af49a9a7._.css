@@ -725,6 +725,10 @@
     inset-block: calc(var(--spacing) * 0);
   }
 
+  .-top-6 {
+    top: calc(var(--spacing) * -6);
+  }
+
   .-top-12 {
     top: calc(var(--spacing) * -12);
   }
@@ -1356,6 +1360,10 @@
 
   .h-16 {
     height: calc(var(--spacing) * 16);
+  }
+
+  .h-20 {
+    height: calc(var(--spacing) * 20);
   }
 
   .h-36 {
@@ -2118,6 +2126,11 @@
   .rounded-t {
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
+  }
+
+  .rounded-t-3xl {
+    border-top-left-radius: var(--radius-3xl);
+    border-top-right-radius: var(--radius-3xl);
   }
 
   .rounded-l-md {
